@@ -1,0 +1,63 @@
+:root {
+    --black: #121212;
+    --text: #D09F5D;
+    --gray: #1E1E1E;
+    --white: #FFFFFF;
+    --secondary: #6C757D;
+}
+body, .table {
+    background-color: var(--black);
+    color: var(--text);
+}
+.textMain {
+    font-size: 20px
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: var(--text);
+}
+.btnMAin {
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 2px;
+    color: var(--white);
+    margin-left: 3px;
+}
+.dNone {
+    display: none
+}
+.modal-content {
+    background-color: var(--black);
+    border: 1px solid var(--gray);
+}
+.modal-header {
+    border-bottom: 1px solid var(--gray);
+}
+.form-control, .form-control:focus {
+    background-color: var(--gray);
+    border: 1px solid var(--gray);
+}
+.card {
+    border: 1px solid var(--gray);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.card:hover {
+    -webkit-box-shadow: 3px 3px 15px 1px var(--gray);
+    box-shadow: 3px 3px 15px 1px var(--gray);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.table>:not(caption)>*>* {
+    color: var(--text);
+    border-color: var(--text);
+}
+.table tbody tr td {
+    color: var(--secondary);
+}
